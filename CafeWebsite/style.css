@@ -1,0 +1,72 @@
+/* Customization 1: Custom Font & Typography */
+body {
+    /* Using a serif font for a classic cafe/book feel */
+    font-family: 'Merriweather', serif; 
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    /* Customization 2: Color Scheme Change (Coffee Theme) */
+    background-color: #EDECE4; /* Light Cream/Parchment background */
+    color: #4A3A2F; /* Deep Espresso Brown text */
+}
+
+header {
+    background-color: #6F4E37; /* Warm, rich Coffee Brown header */
+    padding: 1em 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Basic Styling */
+h1, h2 {
+    text-align: center;
+    color: #A37F5D; /* Caramel/Milk Chocolate accent color */
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5em auto;
+    border-radius: 8px; /* Soft rounding for a cozy feel */
+    border: 5px solid #A37F5D;
+}
+
+nav a {
+    color: #EDECE4; /* Light text on dark header */
+    text-decoration: none;
+    padding: 0 1.5em;
+    /* Customization 3: Custom Link Style (Transition Effect) */
+    transition: color 0.3s ease; 
+}
+
+nav a:hover {
+    color: #FFFFFF; /* White on hover for emphasis */
+}
+
+nav {
+    text-align: center;
+}
+
+/* Customization 3 (continued): Custom Margins/Layout Adjustment */
+section, footer {
+    /* Set max width and center content */
+    max-width: 900px; 
+    margin: 30px auto; 
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px; 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+ol li {
+    padding-bottom: 5px;
+}
